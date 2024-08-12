@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+}
+/* navbar design start here */
+
+.nav-main{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.nav-right{
+    
+
+}
+.nav-btn{
+    background-color: transparent;
+}
+.nav-btn-follow{
+
+}
