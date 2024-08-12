@@ -11,19 +11,25 @@ body{
         font-style: normal;
 }
 /* navbar design start here */
-
+.nav-container{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.078);
+}
 .nav-main{
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .nav-left{
     display: flex;
     align-items: center;
     font-size: 45px;
     font-weight: 700;
-
+}
+.nav-left img {
+    padding-right: 20px;
 }
 .nav-right{
     
@@ -31,7 +37,88 @@ body{
 }
 .nav-btn{
     background-color: transparent;
+    border: none;
+    font-size: 18px;
+    margin-right: 30px;
 }
 .nav-btn-follow{
+    border-radius: 7px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 17px;
+    margin-right: 0;
+}
+.nav-btn-follow span{
+    padding-left: 16px;
+}
+/* navbar design end here */
+
+
+/* header design start here */
+.header-container{
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
 
 }
+.header-main{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    width: 50%;
+}
+.header-right{
+    width: 50%;
+}
+.header-right img {
+    width: 100%;
+}
+.play{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 90px;
+}
+.goat{
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.187);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+}
+.header-btn1, .header-btn2{
+    border-radius: 48px;
+    padding: 18px 35px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.header-btn1{
+    background-color: #FF42A5;
+    margin-right: 20px;
+}
+.header-btn2{
+    background: rgb(78, 197, 247);
+}
+.header-text p{
+    padding-bottom: 17px;
+}
+/* header design end here */
+
+
+    /* online game section style start here */
+    .online-game-main{
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+    }
+    .online-game-card{
+
+    }
+    /* online game section style end here */
+     
