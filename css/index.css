@@ -112,13 +112,51 @@ body{
 
 
     /* online game section style start here */
-    .online-game-main{
+    .online-game{
         max-width: 1000px;
         margin: 0 auto;
-        display: grid;
+        margin-top: 120px;
     }
-    .online-game-card{
+    .text{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 48px;
+        padding-bottom: 16px;
+    }
+    .online-game-main{
+
+        display: grid;
+        grid-template-areas: "a b c d";
+        gap: 24px;
+        margin-top: 48px;
+    }
+    .online-game-card {
 
     }
+    .online-game-card img{
+        width: 100%;
+    }
+    .online-game-card p{
+        color: rgb(83, 76, 100);
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .card-1{
+        grid-area: a;
+    }
+    .card-2{
+        grid-area:b;
+    }
+    .card-3{
+        grid-area: c;
+    }
+    .card-4{
+        grid-area: d;
+    }
     /* online game section style end here */
-     
+
+
+    /* gamer section style start here */
+    
+    /* gamer section style end here */
