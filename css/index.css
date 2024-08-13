@@ -342,5 +342,82 @@ body{
             color: #FF42A5;
             background: rgb(255, 255, 255);
         }
-        
         /* Careers section style end here */
+
+
+        /* category section style start here */
+        .category-main{
+            margin: 100px auto;
+            max-width: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .category-chile{
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            flex-grow: 1;   
+            max-width: 103.112px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .category-chile:hover{
+            outline: 1px solid #FF42A5;
+        }
+        .category-chile img{
+            width: 40px;
+        }
+        /* category section style end here */
+
+
+        footer{
+            background: rgb(11, 2, 35);
+            
+
+        }
+        .footer-main{
+            max-width: 1000px;
+            margin: 0 auto;
+            padding-bottom:  50px;
+            padding-top: px;
+        }
+        .footer-top{
+            justify-content: center;
+            padding-top: 50px;
+        }
+        .story{
+            display: flex;
+            color: rgb(255, 255, 255);
+            gap: 60px;
+            margin-top: 60px;
+            justify-content: center;
+            font-size: 18px;
+            margin-bottom: 60px;
+        }
+        .logo-footer a{
+            color: white;
+            margin-right: 40px;
+            font-size: 40px;
+        }
+        .logo-footer{
+            text-align: center;
+        }
+        .privacy{
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+            margin-top: 60px;
+            margin-bottom: 10px;
+        }
+        .privacy p{
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+            margin-bottom: 26px;
+        }
+        .copyright{
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+            text-align: center;
+        }
