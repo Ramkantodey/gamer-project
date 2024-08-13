@@ -111,13 +111,37 @@
             margin-left: 70px;
         }
         .play-left h1{
-            font-size: 32px;
+            font-size: 28px;
             text-align: center;
+            line-height: 46px;
         }
         .play-left p{
             text-align: center;
             margin-bottom: 70px;
         }
+        .main-play{
+            flex-direction: column-reverse;
+            width: 60%;
+            margin-bottom: 50px;
+        }
 
+        .play-img{
+            position: relative;
+            margin-bottom: 100px;
+        }
+        .play-img .man{
+            position: absolute;
+            left: -75px;
+        }
+        .play-img .beral{
+            position: absolute;
+            top: 120px;
+            left: 100px;
+        }
     /* Play Instantly section responsive end here */
+        
+
+    /* Careers section responsive starts here */
+
+    /* Careers section responsive end here */
 }

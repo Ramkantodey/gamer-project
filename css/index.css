@@ -238,7 +238,6 @@ body{
             height: 180px;
             bottom: -50px;
             left: -80px;
-
         }
         .play-left h1{
             font-size: 48px;
@@ -254,4 +253,33 @@ body{
             text-align: right;
             margin-top: 24px;
         }
-        /* Play Instantly section end start here */
+        .main-play{
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto 100px;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 120px;
+
+        }
+
+        .text-play h1{
+            text-align: left;
+            font-size: 46px;
+        }
+        .text-play p{
+            text-align: left;
+        }
+        .play-img .beral{
+            position: absolute;
+            width: 150px;
+            height: 180px;
+            bottom: -50px;
+            left: 340px;
+        }
+        /* Play Instantly section style end start here */
+
+
+        /* Careers section style start here */
+        
+        /* Careers section style end here */
