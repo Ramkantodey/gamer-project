@@ -351,18 +351,20 @@ body{
             max-width: 1000px;
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 17px;
             justify-content: center;
         }
         .category-chile{
             border-radius: 50px;
             display: flex;
-            align-items: center;
-            flex-grow: 1;   
-            max-width: 103.112px;
+            gap: 10px;
+            align-items: center; 
             font-size: 16px;
             font-weight: 600;
+            min-width: 180px;
+            margin-top: 20px;
         }
+
         .category-chile:hover{
             outline: 1px solid #FF42A5;
         }
@@ -372,6 +374,7 @@ body{
         /* category section style end here */
 
 
+        /* footer section style start here */
         footer{
             background: rgb(11, 2, 35);
             
@@ -421,3 +424,4 @@ body{
             font-size: 14px;
             text-align: center;
         }
+                /* footer section style end here */

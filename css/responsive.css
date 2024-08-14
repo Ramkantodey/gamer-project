@@ -135,8 +135,8 @@
         }
         .play-img .beral{
             position: absolute;
-            top: 120px;
-            left: 100px;
+            top: 90px;
+            left: 70px;
         }
     /* Play Instantly section responsive end here */
 
@@ -160,5 +160,59 @@
 
 
     /* category section responsive start here */
+    .category-main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .category-chile{
+        font-size: 9px;
+        min-width: 50px;
+    }
+    .category-chile img{
+        width: 30px;
+    }
     /* category section responsive end here */
+
+
+            /* footer section responsive start here */
+            .footer-top img{
+                width: 30%;
+            }
+            .story{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 0;
+            }
+            .story p{
+                font-size: 12px;
+                text-align: center;
+                margin-top: 30px;
+            }
+            .logo-footer{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+            .logo-footer a{
+                padding-left: 29px;
+                padding-top: 35px;
+            }
+            .privacy{
+                display: grid; 
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0;
+                padding-left: 25px;
+            }
+            .privacy p{
+                padding: 15px;
+            }
+            .copyright{
+                padding: 20px;
+                line-height: 25px;
+            }
+            /* footer section responsive end here */
 }
